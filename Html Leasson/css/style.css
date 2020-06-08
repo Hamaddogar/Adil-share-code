@@ -1,0 +1,67 @@
+ /* h1{
+
+ color: blue;
+
+
+ }
+
+ #div1{
+color: red;
+ background-color: red;
+ border: 2px solid red;
+width: 300px;
+height: 300px;
+
+ }
+ 
+ #div2{
+    color: red;
+     background-color: green;
+     border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    animation:  10s mymove ;
+     }
+     #div3{
+        color: red;
+         background-color: yellow;
+         border: 2px solid red;
+        width: 300px;
+        height: 300px;
+        
+         }
+
+    #main{
+
+  display: inline-flex;
+  
+
+
+
+
+    }     
+
+     @keyframes mymove{
+   from {padding-top: 300px;background-color: teal;}
+   to{padding-left:500px ;background-color: black;}
+
+     } */
+
+
+     #maindiv{
+   animation: 10s carmove;
+
+     }
+
+     @keyframes carmove{
+  from{margin-left: -50px;}
+   to{margin-left: 1000px;}
+
+     }
+
+     p{
+
+      font-size: larger;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
